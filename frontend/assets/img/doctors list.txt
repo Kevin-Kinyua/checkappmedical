@@ -1,0 +1,19 @@
+Family physician
+Pediatrician
+Obstetricians/gynecologist (OBGYNs)
+Cardiologist
+Oncologist
+Gastroenterologist
+Pulmonologist
+Nephrologist
+Endocrinologist
+Ophthalmologist
+Otolaryngologist
+Dermatologist
+Psychiatrist
+Neurologist
+Radiologist
+Dentist
+Anesthesiologist
+
+General Practitioner

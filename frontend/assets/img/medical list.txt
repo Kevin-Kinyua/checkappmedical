@@ -1,0 +1,61 @@
+Allergy and immunology
+
+Anesthesiology
+
+Dermatology
+	Dermatopathology
+	Pediatric dermatology
+	Procedural dermatology
+
+Diagnostic radiology
+	Abdominal radiology
+	Breast imaging
+	Cardiothoracic radiology
+	Cardiovascular radiology
+	Chest radiology
+	Emergency radiology
+	Endovascular surgical neuroradiology
+	Gastrointestinal radiology
+	Genitourinary radiology
+	Head and neck radiology
+	Interventional radiology
+	Musculoskeletal radiology
+	Neuroradiology
+	Nuclear radiology
+	Pediatric radiology
+	Radiation oncology
+	Vascular and interventional radiology
+
+Emergency medicine
+	Anesthesiology critical care medicine
+	Emergency medical services
+	Hospice and palliative medicine
+	Internal medicine / Critical care medicine
+	Medical toxicology
+	Pain medicine
+	Pediatric emergency medicine
+	Sports medicine
+	Undersea and hyperbaric medicine
+
+Family medicine
+	Adolescent medicine
+	Geriatric medicine
+	Hospice and palliative medicine
+	Pain medicine
+	Sleep medicine
+	Sports medicine
+
+Internal medicine
+Medical genetics
+Neurology
+Nuclear medicine
+Obstetrics and gynecology
+Ophthalmology
+Pathology
+Pediatrics
+Physical medicine and rehabilitation
+Preventive medicine
+Psychiatry
+Radiation oncology
+Surgery
+Urology
