@@ -12,7 +12,7 @@ Welcome to the CheckApp! This project is a user-centric digital platform designe
 It addresses the common frustrations patients and healthcare providers face when trying to book or manage appointments through traditional means.
 This project revolutionizes the healthcare journey by offering real-time appointment availability, telemedicine integration, and automated appointment reminders.
 
-You can access the deployed site https://www.checkapp.africa(#).
+You can access the deployed site [firebase](https://checkappmedical.web.app/).
 
 For a detailed overview of the project and its development journey, please check out our blog
 (https://www.linkedin.com/pulse/revolutionizing-healthcare-access-africa-through-checkapp-kinyua%3FtrackingId=KrQOE2duRF6y4OGgHH8vUQ%253D%253D/?trackingId=KrQOE2duRF6y4OGgHH8vUQ%3D%3D)(#).
