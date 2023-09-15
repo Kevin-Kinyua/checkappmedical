@@ -44,10 +44,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto  active" href="#services" >Services</a></li>
+          <li><a class="nav-link scrollto" href="#services" >Services</a></li>
           <li><a class="nav-link scrollto" href="find-a-doctor.html">Find a doctor</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+          <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -61,16 +61,19 @@
       <!-- ======= Authentication======= -->
         <section class="authentication">
             <div class="login-wrap">
+              <p>Medical Practitioner User Access</p>
                 <div class="login-html">
                     <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
                     <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                    
+                    
                     <div class="login-form">
                         <div class="sign-in-htm">
                             <div class="hr"></div>
                             <div class="group">
                                 <!-- <label for="user" class="label">Username</label> -->
                                
-                                <input id="user" type="text" placeholder="Username" class="input">
+                                <input id="email" type="text" placeholder="Email Address" class="input">
                             </div>
                             <div class="group">
                                 <!-- <label for="pass" class="label">Password</label> -->
@@ -178,7 +181,7 @@
         });
     });
 
-    // login 
+    login 
     login.addEventListener('click',(e) => {
 
          var email = document.getElementById('email').value;
@@ -210,7 +213,7 @@
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/main-logo.png" alt="">
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>Your Health, Your Schedule, Your Way</p>
             <div class="social-links mt-3">
    
             </div>

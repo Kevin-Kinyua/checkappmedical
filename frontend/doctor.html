@@ -237,18 +237,35 @@
             <div class="sidebar">
 
 
-              <h3 class="sidebar-title">Calendar</h3>
+              <h3 class="sidebar-title">Book an appointment</h3>
               <div class="sidebar-item recent-posts">
                 
                 <form action="/action_page.php">
-                  <label for="birthdaytime">Birthday (date and time):</label>
-                  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                  <div class="group">
+                    <!-- <label for="birthdaytime">Your Full Name :</label> -->
+                    <input id="patientName" type="text" class="input" placeholder="Full Name" data-type="patientName">
+                  </div>
                   <br>
-                  <a href="#" class="btn-get-started s d-inline-flex align-items-center justify-content-center align-self-center">
-                    <span>Book an appointment</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
+                  <div class="group">
+                    <!-- <label for="birthdaytime">Email Address:</label> -->
+                    <input id="patientEmail" type="text" class="input" placeholder="Email Address" data-type="patientEmail">
+                  </div>
+                  <br>
+
+                  <div class="group">
+                    <!-- <label for="birthdaytime">Phone Number :</label> -->
+                    <input id="patientPhone" type="tel" class="input" placeholder="Phone Number" data-type="patientPhone">
+                  </div>
+                  <br>
+                  <div class="group">
+                    <label for="birthdaytime">Appointment date and time :</label>
+                    <input type="datetime-local" id="appointmentTime" name="appointmentTime" Tata-type="appointmentTime">
+                  </div>
+                  <br>
+                  <button type="submit" class="btn-get-started"><span>Book this time</span>
+                    <i class="bi bi-arrow-right"></i></button>
                 </form>
+                
 
               </div><!-- End sidebar recent posts-->
 
@@ -290,7 +307,7 @@
             <img src="assets/img/main-logo.png" alt="">
             <!-- <span>FlexStart</span> -->
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Your Health, Your Schedule, Your Way</p>
           <div class="social-links mt-3">
             <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
