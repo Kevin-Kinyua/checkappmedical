@@ -28,6 +28,8 @@
     display: none;
     padding: 100px 20px;
     height: auto;
+    align-items: center;
+    justify-content: center;
   }
   
 
