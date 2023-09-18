@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Check App +</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/faviconplus.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/dash.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/main-logo.png" alt="" >
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span id="boot-icon" class="bi bi-person-circle" style="font-size: 3rem"></span></a>
+            <ul>
+              <li><a href="#">Edit my Profile</a></li>              
+              <li><a href="#">Notifications</a></li>
+              <li><a href="#" style="color: red;">Log Out</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  <main id="main">
+    
+<div style="margin-top: 120px;">
+    <button class="tablink" onclick="openPage('my-appointments', this, '#4154f1')" id="defaultOpen">Appointments</button>
+    <button class="tablink" onclick="openPage('my-patients', this, '#4154f1')" >Patients</button>
+    <button class="tablink" onclick="openPage('Contact', this, '#4154f1')">Scheduler</button>
+    <!-- <button class="tablink" onclick="openPage('About', this, 'orange')">About</button> -->
+    
+    <div id="my-appointments" class="tabcontent">
+      <h3>My Appointments</h3>
+      <br>
+      <div class="profile-card">  
+        <div class="profile-card-text col-lg-10">
+            <div class="profile-img">
+                <img class="profile-img" src="./assets/img/blog/comments-6.jpg" alt="">
+              </div>
+          <div class="title-total">   
+                <h2>Patient Name</h2>            
+                <div class="desc">
+                   Reason for appointment
+                </div>
+                <div class="">
+                <!-- <button><i class="bi bi-calendar-event"><p>Monday 23rd September 8:00 am </p></i></button>
+                <button><i class="bi bi-telephone"><p>0722 000 000</p></i></button> -->
+                <i class="bi bi-calendar-event"></i>   Monday 23rd September 8:00 am
+                <br>
+                <i class="bi bi-telephone"></i>    0722 000 000
+                </div>
+            </div>       
+        </div> 
+        <div class="profile-card-text col-lg-3"> 
+            <button class="btn-get-started"> Action</button>
+            <br>
+            <button class="btn-get-started"> Action</button>
+        </div>       
+      </div>
+      <!-- appointment card end -->
+      <br>
+
+      <div class="profile-card">  
+        <div class="profile-card-text">
+          <div class="profile-img">
+            <img class="profile-img" src="./assets/img/blog/comments-5.jpg" alt="">
+          </div>
+          <div class="title-total">   
+                <h2>Patient Name</h2>            
+                <div class="desc">
+                   Reason for appointment
+                </div>
+                <div class="">
+                <!-- <button><i class="bi bi-calendar-event"><p>Monday 23rd September 8:00 am </p></i></button>
+                <button><i class="bi bi-telephone"><p>0722 000 000</p></i></button> -->
+                <i class="bi bi-calendar-event"></i>   Monday 23rd September 8:00 am
+                <br>
+                <i class="bi bi-telephone"></i>    0722 000 000
+                </div>
+            </div>       
+        </div>        
+      </div>
+      <!-- appointment card end -->
+
+    </div>
+    
+    <div id="my-patients" class="tabcontent">
+      <h3>My Patients</h3>
+      <p>Some news this fine day!</p> 
+    </div>
+    
+    <div id="Contact" class="tabcontent">
+      <h3>Contact</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+    
+    <div id="About" class="tabcontent">
+      <h3>About</h3>
+      <p>Who we are and what we do.</p>
+    </div>
+    
+    <script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+</div>
+     
+
+
+  </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
