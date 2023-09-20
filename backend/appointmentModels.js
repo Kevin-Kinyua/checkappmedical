@@ -27,7 +27,6 @@ const appointmentSchema = new Schema({
   appointmentDate: Date,
   appointmentTime: String,
   location: String,
-  telemedicineLink: String,
   status: String,
   // Add other appointment-specific fields here
 });
@@ -87,3 +86,31 @@ const Settings = mongoose.model('Settings', settingsSchema);
 
 // Export the models
 module.exports = { User, Appointment, HealthcareProvider, Patient, Review, Message, Settings };
+// _____________________________________________________________________//
+// ________________________test code below_____________________________//
+// _____________________________________________________________________//
+// const mongoose = require('mongoose');
+// const { Appointment } = require('./appointmentModels'); // Import your Mongoose model
+
+// // Assuming you've collected the data in a formData object as shown earlier
+// const formData = {
+//   fullName: 'John Doe',
+//   email: 'john@example.com',
+//   appointmentDate: '2023-09-15',
+//   appointmentTime: '14:00',
+//   // Other form data
+// };
+
+// // Create a new instance of the Appointment model using the collected data
+// const newAppointment = new Appointment(formData);
+
+// // Save the new appointment to the MongoDB database
+// newAppointment.save()
+//   .then((result) => {
+//     console.log('Appointment saved:', result);
+//     // Handle success
+//   })
+//   .catch((error) => {
+//     console.error('Error saving appointment:', error);
+//     // Handle error
+//   });

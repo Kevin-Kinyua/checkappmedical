@@ -225,7 +225,7 @@
               <h3 class="sidebar-title">Book an appointment</h3>
               <div class="sidebar-item recent-posts">
                 
-                <form action="/action_page.php">
+                <form id="bookingForm">
                   <div class="group">
                     <!-- <label for="birthdaytime">Your Full Name :</label> -->
                     <input id="patientName" type="text" class="input" placeholder="Full Name" data-type="patientName">
@@ -243,11 +243,11 @@
                   </div>
                   <br>
                   <div class="group">
-                    <label for="birthdaytime">Appointment date and time :</label>
-                    <input type="datetime-local" id="appointmentTime" name="appointmentTime" Tata-type="appointmentTime">
+                    <label for="AppointmentDateTime">Appointment date and time :</label>
+                    <input type="datetime-local" id="appointmentDateTime" name="appointmentTime" Tata-type="appointmentTime">
                   </div>
                   <br>
-                  <button type="submit" class="btn-get-started"><span>Book this time</span>
+                  <button id="submitBooking" type="submit" class="btn-get-started"><span>Book this time</span>
                     <i class="bi bi-arrow-right"></i></button>
                 </form>
                 
