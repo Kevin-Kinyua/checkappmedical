@@ -375,6 +375,16 @@ section {
 
   .navbar .navbarul {
     display: flex;
+    margin: 0 -5px 0 -10px;
+  }
+
+  .navbar .dropdown ul {
+    text-align: center;
+    max-width: 120px;
+  }
+
+  .navbar .navbarul li a {
+    font-size: 12px;
   }
 
   .navbar ul {
