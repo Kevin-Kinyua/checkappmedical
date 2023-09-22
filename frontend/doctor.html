@@ -65,7 +65,7 @@
     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs"    style="background-color: #4154f1;">
       <div class="container" >
-       <span id="doctorName"> <h2>Doctor Name</h2></span>
+       <span id="doctor"> <h2>Doctor Wallas</h2></span>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -116,7 +116,7 @@
             
 
             <div class="blog-comments">
-
+              <!-- comment #1 --
               <div id="comment-1" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-1.jpg" alt=""></div>
@@ -131,6 +131,7 @@
                 </div>
               </div><!-- End comment #1 -->
 
+              <!-- comment #1 --
               <div id="comment-2" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-2.jpg" alt=""></div>
@@ -145,6 +146,7 @@
 
               </div><!-- End comment #2-->
 
+              <!-- comment #1 --
               <div id="comment-3" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-5.jpg" alt=""></div>
@@ -160,6 +162,7 @@
 
               </div><!-- End comment #3 -->
 
+              <!-- comment #1 --
               <div id="comment-4" class="comment">
                 <div class="d-flex">
                   <div class="comment-img"><img src="assets/img/blog/comments-6.jpg" alt=""></div>
@@ -243,16 +246,24 @@
                   </div>
                   <br>
                   <div class="group">
-                    <label for="AppointmentDateTime">Appointment date and time :</label>
-                    <input type="datetime-local" id="appointmentDateTime" name="appointmentTime" Tata-type="appointmentTime">
+                    <label for="date">Appointment date :</label> <br>
+                    <input type="date" id="date" name="date" Tata-type="datetime">
+                  </div>
+                  <div class="group">
+                    <label for="time">Appointment date and time :</label><br>
+                    <input type="time" id="time" name="time" Tata-type="time">
                   </div>
                   <br>
-                  <button id="submitBooking" type="submit" class="btn-get-started"><span>Book this time</span>
+                  <button  type="submit" class="btn-get-started"><span>Book this time</span>
                     <i class="bi bi-arrow-right"></i></button>
                 </form>
                 
 
               </div><!-- End sidebar recent posts-->
+              <div id="appointmentList">
+                <h2>Appointments:</h2>
+                <ul id="appointments"></ul>
+            </div>
 
             </div><!-- End sidebar -->
 
