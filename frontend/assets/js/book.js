@@ -544,21 +544,23 @@
 document.getElementById('appointmentForm').addEventListener('submit', function(e) {
     e.preventDefault();
   
-    var name = document.getElementById('name').value;
+    var patientName = document.getElementById('patientName').value;
+    // var name = document.getElementById('patientPhone').value;
     var date = document.getElementById('date').value;
     var time = document.getElementById('time').value;
-    var doctor = document.getElementById('doctor').value;
+    // var doctor = document.getElementById('doctor').value;
   
-    var appointment = name + ' - ' + date + ' at ' + time + ' with ' + doctor;
+    // var appointment = patientName + ' - ' + date + ' at ' + time + ' with ' + doctor;
+    var appointment = patientName + ' will meet you on ' + date + ' at ' + time;
   
     var listItem = document.createElement('li');
     listItem.textContent = appointment;
   
     document.getElementById('appointments').appendChild(listItem);
   
-    document.getElementById('name').value = '';
+    document.getElementById('patientName').value = '';
     document.getElementById('date').value = '';
     document.getElementById('time').value = '';
-    document.getElementById('doctor').value = '';
+    // document.getElementById('doctor').value = '';
   });
   
